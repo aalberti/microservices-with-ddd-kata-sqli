@@ -1,4 +1,4 @@
-package p1.myshop.entities;
+package p1.myshop.shipping;
 
 public class Recipient {
     private final String name;

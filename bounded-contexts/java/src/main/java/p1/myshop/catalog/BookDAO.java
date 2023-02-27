@@ -1,4 +1,4 @@
-package p1.myshop.dao;
+package p1.myshop.catalog;
 
 public interface BookDAO {
 }

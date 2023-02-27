@@ -1,6 +1,6 @@
 package p1.myshop.shipping;
 
-import p1.myshop.entities.HasWeight;
+import p1.myshop.catalog.HasWeight;
 import p1.myshop.catalog.CatalogService;
 import p1.myshop.shoppingcart.Cart;
 import p1.myshop.shoppingcart.CartItem;
