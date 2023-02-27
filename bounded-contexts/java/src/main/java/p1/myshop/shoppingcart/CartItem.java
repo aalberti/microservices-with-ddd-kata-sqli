@@ -1,6 +1,5 @@
 package p1.myshop.shoppingcart;
 
-import p1.myshop.catalog.ItemId;
 
 public class CartItem {
     public final ItemId itemId;
