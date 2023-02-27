@@ -1,4 +1,4 @@
-package p1.myshop.services.shoppingcart;
+package p1.myshop.shoppingcart;
 
 import java.util.List;
 

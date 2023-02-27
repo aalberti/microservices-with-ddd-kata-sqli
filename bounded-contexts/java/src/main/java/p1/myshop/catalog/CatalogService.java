@@ -1,4 +1,4 @@
-package p1.myshop.services.catalog;
+package p1.myshop.catalog;
 
 import p1.myshop.entities.Item;
 import p1.myshop.entities.ItemId;
