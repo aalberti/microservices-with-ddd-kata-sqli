@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bounded-contexts/java/archi-sandbox.iml" filepath="$PROJECT_DIR$/bounded-contexts/java/archi-sandbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservices-with-ddd-kata-sqli.iml" filepath="$PROJECT_DIR$/microservices-with-ddd-kata-sqli.iml" />
+    </modules>
+  </component>
+</project>
