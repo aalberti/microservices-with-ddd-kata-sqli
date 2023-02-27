@@ -1,4 +1,4 @@
 package p1.myshop.shoppingcart;
 
-public class ItemId {
+public class ProductId {
 }
