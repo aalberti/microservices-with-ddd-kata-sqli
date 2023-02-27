@@ -1,8 +1,8 @@
 package p1.myshop.shipping;
 
+import java.util.List;
 import p1.myshop.catalog.CatalogService;
-import p1.myshop.shoppingcart.Cart;
-import p1.myshop.shoppingcart.CartItem;
+import p1.myshop.shoppingcart.Item;
 
 public class DeliveryService {
   private final CatalogService catalogService;
@@ -11,11 +11,7 @@ public class DeliveryService {
     this.catalogService = catalogService;
   }
 
-  public double calculateOrderWeight(Cart cart) {
-    return cart.items().stream()
-        .map(CartItem::itemId)
-        .map(catalogService::loadItem)
-        .mapToDouble(HasWeight::weight)
-        .sum();
+  public double calculateOrderWeight(List<Item> items) {
+    return items.stream().mapToDouble(HasWeight::weight).sum();
   }
 }
