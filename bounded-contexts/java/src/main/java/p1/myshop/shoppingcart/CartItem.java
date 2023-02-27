@@ -2,15 +2,15 @@ package p1.myshop.shoppingcart;
 
 
 public class CartItem {
-    public final ItemId itemId;
+    public final ProductId productId;
     public final Quantity quantity;
 
-    public CartItem(ItemId itemId, Quantity quantity) {
-        this.itemId = itemId;
+    public CartItem(ProductId productIdId, Quantity quantity) {
+        this.productId = productIdId;
         this.quantity = quantity;
     }
 
-    public ItemId itemId() {
-        return itemId;
+    public ProductId productId() {
+        return productId;
     }
 }
