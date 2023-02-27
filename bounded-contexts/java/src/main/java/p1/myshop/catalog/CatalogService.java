@@ -4,4 +4,5 @@ public class CatalogService {
     public Item loadItem(ItemId itemId) {
         return null;
     }
+
 }
