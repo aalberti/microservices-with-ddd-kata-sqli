@@ -1,7 +1,5 @@
 package p1.myshop.shoppingcart;
 
-import p1.myshop.shipping.HasWeight;
-
-public interface Item extends HasWeight {
+public interface Item {
   ItemId itemId();
 }
